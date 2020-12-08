@@ -6,7 +6,11 @@ import java.util.Scanner;
  * 12/07/20
  * 
  * Day 1 Assignment 2
- * 	Print 4 Patterns displayed on slide 19 JavaBasics_Wk1_Day1.pptx
+ * 	Random generate integer between 1-100 inclusive see: 19 JavaBasics_Wk1_Day1.pptx
+ *  From console guess number, 5 attempts
+ *  If number is within 10 numbers plus or minus, Give generated number and exit
+ *  Example: Random # generated is 63
+ *  User's guess must be between and include 53-73
  */
 
 /**
