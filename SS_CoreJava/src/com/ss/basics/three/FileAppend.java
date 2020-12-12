@@ -1,7 +1,7 @@
 /**
  *  * Write a Java program to append text to an existing file.
  */
-package com.ss.basics.four;
+package com.ss.basics.three;
 
 import java.io.FileWriter;
 import java.io.PrintWriter;
@@ -29,5 +29,4 @@ public class FileAppend {
 			e.printStackTrace();
 		}
 	}
-
 }

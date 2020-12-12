@@ -3,12 +3,13 @@
  * 	particular character, such as e, appears in a file.
  * 	The character can be specified at the command line
  */
-package com.ss.basics.four;
+package com.ss.basics.three;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 /**
@@ -34,12 +35,11 @@ public class CountCharacter {
 	public static Character getLetter() {
 		char letter = '\0';
 		try {
-			Scanner sc = new Scanner(System.in);
+			BufferedReader readChar = new BufferedReader(new InputStreamReader(System.in));
 			System.out.print("Enter a character: ");
-			letter = sc.next().charAt(0);
-			sc.close();
-		}
-		catch(Exception e) {
+			letter = (char) readChar.read();
+			
+		} catch(Exception e) {
 			e.printStackTrace();
 		}
 		return Character.toLowerCase(letter);
@@ -48,10 +48,9 @@ public class CountCharacter {
 	public static File getFileName() {
 		String file = "";
 		try {
-			Scanner sc = new Scanner(System.in);
+			BufferedReader readFileName = new BufferedReader(new InputStreamReader(System.in));
 			System.out.print("Enter path and filename: ");
-			file = sc.next();
-			sc.close();
+			file = readFileName.readLine(); 
 			
 		} catch(Exception e) {
 			e.printStackTrace();
