@@ -4,7 +4,7 @@
  * Take multiple values from command line showing result
  * 	of adding all of them.
  */
-package com.ss.basics.two;
+package com.ss.dec07;
 
 /**
  * @author ronh

@@ -3,14 +3,13 @@
  * 	particular character, such as e, appears in a file.
  * 	The character can be specified at the command line
  */
-package com.ss.basics.three;
+package com.ss.dec08;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
+
 
 /**
  * @author ronh ron henson

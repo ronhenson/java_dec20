@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.ss.basics.four;
+package com.ss.dec10;
 
 /**
  * @author ronh

@@ -2,7 +2,7 @@
  * Implement Singleton with double checked locking
  * See Introduction Part4, slide 4 Synchronization
  */
-package com.ss.basics.four;
+package com.ss.dec10;
 
 /**
  * @author ronh - ron henson

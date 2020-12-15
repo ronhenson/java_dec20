@@ -3,7 +3,7 @@
  * Write a Java program to get a list of all file/directory
  * 	names under a given directory.
  */
-package com.ss.basics.three;
+package com.ss.dec08;
 
 import java.io.File;
 import java.nio.file.DirectoryStream;

@@ -4,7 +4,7 @@
  * Construct a 2D array and find the max number
  * 	and show the it's postion in an array
  */
-package com.ss.basics.two;
+package com.ss.dec07;
 
 /**
  * @author ronh

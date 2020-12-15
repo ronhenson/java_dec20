@@ -1,7 +1,7 @@
 /**
  *  * Write a Java program to append text to an existing file.
  */
-package com.ss.basics.three;
+package com.ss.dec08;
 
 import java.io.FileWriter;
 import java.io.PrintWriter;

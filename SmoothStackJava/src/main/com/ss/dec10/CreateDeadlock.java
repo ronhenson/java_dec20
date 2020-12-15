@@ -1,7 +1,7 @@
 /**
  * Write a program to create a deadlock between two threads.
  */
-package com.ss.basics.four;
+package com.ss.dec10;
 
 
 /**
